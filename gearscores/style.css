@@ -1,0 +1,1449 @@
+body {
+	background: url(http://gearscores.com/images/mainBG.jpg) repeat-x top left;
+	background-color:black;
+	text-align:center;
+}
+
+ul.menu {list-style:none; margin:0; padding:0}
+ul.menu * {margin:0; padding:0}
+ul.menu a {display:block; color:#000; text-decoration:none}
+ul.menu li {position:relative; float:left; margin-right:2px}
+ul.menu ul {position:absolute; top:26px; left:0; background:#d1d1d1; display:none; opacity:0; list-style:none}
+ul.menu ul li {position:relative; border:1px solid #aaa; border-top:none; width:100px; margin:0}
+ul.menu ul li a {display:block; padding:3px 7px 5px; background-color:#d1d1d1}
+ul.menu ul li a:hover {background-color:#c5c5c5}
+ul.menu ul ul {left:100px; top:-1px}
+ul.menu .menulink {border:1px solid #aaa; padding-top: 5px; padding-right: 10px; padding-bottom: 7px; padding-left: 7px; font-weight:bold; background:#d1d1d1;}
+ul.menu .menulink:hover, ul.menu .menuhover {}
+ul.menu .menulink2 {border:1px solid #aaa; padding-top: 5px; padding-right: 20px; padding-bottom: 7px; padding-left: 7px; font-weight:bold; background:#d1d1d1 url(images/arrow-d.gif) no-repeat center right; }
+ul.menu .menulink2:hover, ul.menu .menuhover {}
+ul.menu .sub {background:#d1d1d1 url(images/arrow.gif) 92px 8px no-repeat}
+ul.menu .topline {border-top:1px solid #aaa}
+
+table, tr, td {
+	padding:0px;
+	margin:0px;
+}
+
+.copyrightInfo {
+	width:550px;
+	color:#999;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+}
+
+.gearIcon {
+	position:relative;
+	height:62px;
+	width:62px;
+}
+
+.gearIcon .gearIconPic {
+	border:solid 3px;
+	text-align:center;
+	vertical-align:middle;
+	height:56px;
+	width:56px;
+}
+
+.gearIcon .ilvlText {
+	position:absolute;
+	bottom:3px;
+	right:3px;
+	width:20px;
+	background-color:#000000;
+	color:#FFFFFF;
+	line-height:12px;
+	font-size:14px;
+	padding:2px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.gearIcon .gsIconText {
+	position:absolute;
+	top:3px;
+	left:3px;
+	width:20px;
+	background-color:#000000;
+	color:#FFFFFF;
+	line-height:12px;
+	font-size:14px;
+	padding:2px;
+	font-weight:bold;
+	text-align:center;
+}
+
+a:link, a:active, a:visited{
+	text-decoration:none;
+	color:inherit;
+}
+
+a:hover{
+	text-decoration:underline;
+	color:inherit;
+}
+
+.mainTable {
+	width:600px;
+	border:solid black 2px;
+	text-align:center;
+	background: url(http://gearscores.com/images/parchment-light2.jpg) repeat top left;
+	padding: 25px;
+}
+
+td {
+	/*border:solid black 1px;*/
+}
+
+.statsTable {
+	border:solid purple 1px;
+	color:purple;
+}
+
+.statsTable .rowA {
+	background-color: purple;
+	color:white;
+	font-weight:bold;
+}
+
+.dropshadow{
+	float:left;
+	clear:left;
+	background: url(http://gearscores.com/images/shadowAlpha.png) no-repeat bottom right; /* !important;
+	background: url(http://gearscores.com/images/shadow.gif) no-repeat bottom right; */
+	margin: 10px 0 10px 10px; /* !important;
+	margin: 10px 0 10px 5px; */
+}
+
+.dropshadow table{
+	position:relative;
+	bottom:6px;
+	right: 6px;
+	border: 1px solid #999999;
+	padding:4px;
+	font-size:14px;
+	margin: 0px;
+	background: url(http://gearscores.com/images/parchment-light3.jpg) repeat top left;
+}
+
+.dropshadow2{
+	float:left;
+	clear:left;
+	background: url(http://gearscores.com/images/shadowAlpha1.png) no-repeat bottom right; /* !important;
+	background: url(http://gearscores.com/images/shadow1.gif) no-repeat bottom right;*/
+	margin: 10px 0 10px 10px; /* !important;
+	margin: 10px 0 10px 5px; */
+}
+.dropshadow2 table.dropshadow2table{
+	position:relative;
+	bottom:6px;
+	right: 6px;
+}
+
+.dropshadow3{
+	float:left;
+	clear:left;
+	background: url(http://gearscores.com/images/shadowAlpha.png) no-repeat bottom right; /* !important;
+	background: url(http://gearscores.com/images/shadow.gif) no-repeat bottom right;*/
+	margin: 10px 0 10px 10px; /* !important;
+	margin: 10px 0 10px 5px; */
+}
+.dropshadow3 table{
+	position:relative;
+	bottom:6px;
+	right: 6px;
+	border: 1px solid #999999;
+	padding:4px;
+	font-size:14px;
+	margin: 0px;
+	background: url(http://gearscores.com/images/parchment-light.jpg) repeat top left;
+}
+
+.dropshadow4{
+	float:left;
+	clear:left;
+	background: url(http://gearscores.com/images/shadowAlpha1.png) no-repeat bottom right; /* !important;
+	background: url(http://gearscores.com/images/shadow.gif) no-repeat bottom right;*/
+	margin: 10px 0 10px 10px; /* !important;
+	margin: 10px 0 10px 5px;*/
+}
+.dropshadow4 table.charInfo, .dropshadow4 table.commentsTable{
+	position:relative;
+	bottom:6px;
+	right: 6px;
+	border: 1px solid #999999;
+	font-size:14px;
+	margin: 0px;
+	background: url(http://gearscores.com/images/parchment-light.jpg) repeat top left;
+	padding: 6px;
+}
+
+.dropshadow5{
+	float:left;
+	clear:left;
+	background: url(http://gearscores.com/images/shadowAlpha.png) no-repeat bottom right; /* !important;
+	background: url(http://gearscores.com/images/shadow.gif) no-repeat bottom right;*/
+	margin: 10px 0 10px 10px; /* !important;
+	margin: 10px 0 10px 5px; */
+}
+.dropshadow5 table.dropshadow5table{
+	position:relative;
+	bottom:6px;
+	right: 6px;
+	border: 1px solid #999999;
+	margin: 0px;
+	background: url(http://gearscores.com/images/parchment-light3.jpg) repeat top left;
+	padding:6px;
+}
+
+.meleeTable {
+	border:solid blue 1px;
+	color:blue;
+}
+
+.meleeTable .rowA {
+	background-color: blue;
+	color:white;
+	font-weight:bold;
+}
+
+.meleeTable .rowB {
+}
+
+.defenseTable {
+	border:solid #695516 1px;
+	color:#695516;
+}
+
+.defenseTable .rowA {
+	background-color: #695516;
+	color:white;
+	font-weight:bold;
+}
+
+.defenseTable .rowB {
+}
+
+.spellTable {
+	border:solid green 1px;
+	color:green;
+}
+
+.spellTable .rowA {
+	background-color: green;
+	color:white;
+	font-weight:bold;
+}
+
+.spellTable .rowB {
+}
+
+
+.rangedTable {
+	border:solid #BF6000 1px;
+	color:#BF6000;
+}
+
+.rangedTable .rowA {
+	background-color: #BF6000;
+	color:white;
+	font-weight:bold;
+}
+
+.rangedTable .rowB {
+}
+
+.leftGearTable {
+	background: url(http://gearscores.com/images/parchment-light.jpg) repeat top left;
+}
+
+.rightGearTable {
+	background: url(http://gearscores.com/images/parchment-light.jpg) repeat top left;
+}
+
+.bottomGearTable {
+	background: url(http://gearscores.com/images/parchment-light.jpg) repeat top left;
+}
+
+.activeTalentRowA {
+	font-size: 14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-color:black;
+	color:white;
+}
+
+.activeTalentRowB {
+	font-size: 18px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	color:black;
+}
+
+.activeTalentRowC {
+	font-size: 14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:black;
+}
+
+.inactiveTalentRowA {
+	font-size: 14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-color:#999;
+	color:white;
+}
+
+.inactiveTalentRowB {
+	font-size: 18px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	color:#999;
+}
+
+.inactiveTalentRowC {
+	font-size: 14px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#999;
+}
+
+.profBarTable {
+	border:solid black 1px;
+	width:100px;
+	height:20px;
+	padding:0px;
+	margin:0px;
+	color:white;
+	position:relative;
+	float:left;
+	background-color:black;
+}
+
+.profBarText {
+	position: absolute;
+	left:25px;
+	top:2px;
+	font-weight:bold;
+	font-family: Verdana, Geneva, sans-serif;	
+	font-size:12px;
+}
+
+.profBar {
+	background-color:#006E00;
+	height:20px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.noProfessions {
+	font-size:24px;
+}
+
+.mainProfTable .rowA {
+	font-size:12px;
+	font-family: Verdana, Geneva, sans-serif;	
+	font-weight:bold;
+}
+
+.healthBarTable {
+	border:solid black 1px;
+	width:100px;
+	height:20px;
+	padding:0px;
+	margin:0px;
+	color:white;
+	background-color:blue;
+	text-align:center;
+	font-weight:bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+
+.mainHealthTable .rowA {
+	font-size:12px;
+	font-family: Verdana, Geneva, sans-serif;	
+	font-weight:bold;
+}
+
+.manaBarTable {
+	border:solid black 1px;
+	width:100px;
+	height:20px;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	font-weight:bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+.gsColorTable {
+	padding:0px;
+	margin:0px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.gsColorTable .rowA {
+	font-size:20px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.gsColorTable .rowB {
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.gsColorTable .rowC {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#999;
+}
+
+.gsColorTable .rowD {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.charInfoName {
+	font-size:36px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.charInfoPrefix {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+}
+
+.charInfoSuffix {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+}
+
+.charInfoGuild {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.charInfoLevel {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#D20000;
+}
+
+.charInfoRace {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+.charInfoClass {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+.charInfoRealmText {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:blue;
+}
+
+.charInfoRealm {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:blue;
+}
+
+.charInfoBGText {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:green;
+}
+
+.charInfoBG {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:green;
+}
+
+.charInfoSponsor {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:green;
+}
+
+.charInfoSponsor img{
+	border:none;
+}
+
+.teamSizeText {
+	font-size:18px;
+	color:#999;
+
+}
+
+.arenaTeamTable {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.arenaTeamTable .rowA {
+	font-weight:bold;
+	height:40px;
+}
+
+.arenaTeamTable .rowB {
+	font-size:30px;
+	font-weight:bold;
+}
+
+.arenaTeamTable .rowC {
+}
+
+.borderFrame {
+}
+
+.borderFrameTop {
+	height:28px;
+	border-top:solid 2px black;
+	background: url(http://gearscores.com/images/ev_bg_t.gif) repeat-x top left;
+}
+
+.borderFrameLeft {
+	width:28px;
+	background: url(http://gearscores.com/images/ev_bg_l.gif) repeat-y top left;
+}
+
+.borderFrameLeftShadow {
+	width:20px;
+	border-right:solid 2px black;
+	/*background: url(http://gearscores.com/images/shadow-l.png) repeat-y top left;*/
+}
+
+.borderFrameMainTable {
+}
+
+.borderFrameRight {
+	width:28px;
+	background: url(http://gearscores.com/images/ev_bg_r.gif) repeat-y top left;
+}
+
+.borderFrameRightShadow {
+	width:20px;
+	border-left:solid 2px black;
+	/*background: url(http://gearscores.com/images/shadow-r.png) repeat-y top left;*/
+}
+
+.borderFrameBottom {
+	height:28px;
+	background: url(http://gearscores.com/images/ev_bg_b.gif) repeat-x top left;
+	border-bottom:solid 2px black;
+}
+
+.lastModified {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#444;
+}
+
+.mainContentMainTable {
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+.mainContent {
+	background: url(http://gearscores.com/images/parchment-light3.jpg) repeat top left;
+	width:900px;
+}
+
+.mainContentTopSearch {
+}
+
+.mainContentLogo {
+	color:white;
+	font-size:42px;
+	padding-left:5px;
+	height:150px;
+}
+
+.mainContentTopBanner{
+	background: url(http://gearscores.com/images/mainBannerBg.jpg) no-repeat top right;
+}
+
+.mainContentMenuFrame {
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background-color:black;
+	background-image: url(http://gearscores.com/images/menu_button_bg1.png);
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+
+.mainContentMenuFrame table{
+	padding:0px;
+}
+
+.mainContentMenuFrame td.active, .mainContentMenuFrame td.inactive{
+}
+
+.mainContentMenuFrame td.active{
+	color:white;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	height:40px;
+	white-space:nowrap;
+	background-image: url(http://gearscores.com/images/menu_button_bg2.png);
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+
+.mainContentMenuFrame td.inactive{
+	color:white;
+	white-space:nowrap;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	height:40px;
+	background-image: url(http://gearscores.com/images/menu_button_bg1.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.mainContentMenuFrameSub {
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background-color:black;
+	color:white;
+	background-image: url(http://gearscores.com/images/menu_button_bg3.png);
+	background-repeat: repeat-x;
+	background-position: left center;	
+}
+
+.mainContentMenuFrameSub table{
+	padding:0px;
+}
+
+.mainContentMenuFrame td.end{
+}
+
+.mainContentMenuFrame td.menuSpacer{
+	width:2px;
+	background-image: url(http://gearscores.com/images/menu_button_spacer.png);
+}
+
+.mainContentSpacer {
+	height:10px;
+}
+
+.mainContentBannerTop {
+	height:10px;
+	background: url(http://gearscores.com/images/border_t_1.png) repeat-x top left;
+}
+
+.mainContentBannerBottom {
+	height:10px;
+	background: url(http://gearscores.com/images/border_b_1.png) repeat-x top left;
+}
+
+.mainContentMenuFrameTop {
+	height:0px;
+	background: url(http://gearscores.com/images/menu_t2.png) repeat-x bottom left;
+}
+
+.mainContentMenuFrameBottom {
+	height:0px;
+	background: url(http://gearscores.com/images/menu_b2.png) repeat-x top left;
+}
+
+.mainContentMenuFrameSubTop {
+	height:1px;
+	background: url(http://gearscores.com/images/menu_button_hspacer.png) repeat-y top center;
+	background-color:black;
+}
+
+.mainContentMenuFrameSubBottom {
+	padding-top:0px;
+}
+
+.topSearchFrame {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:white;
+}
+
+.errorTable {
+	margin-top:20px;
+	border:solid #CC0000 1px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#CC0000;
+	background-color:#FFFFCC;
+}
+
+.successTable {
+	margin-top:20px;
+	border:solid #00CC00 1px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#009900;
+	background-color:#CCFFCC;
+}
+
+.rankingsMainTable {
+	border:solid black 2px;
+	text-align:center;
+	background: url(http://gearscores.com/images/parchment-light2.jpg) repeat top left;
+	padding: 25px;
+}
+
+.homeMainTable {
+	width:656px;
+	border:solid black 2px;
+	text-align:center;
+	background: url(http://gearscores.com/images/parchment-light2.jpg) repeat top left;
+	padding: 25px;
+}
+
+.homeMainTableSlim {
+	border:solid black 2px;
+	text-align:center;
+	background: url(http://gearscores.com/images/parchment-light2.jpg) repeat top left;
+	padding: 25px;
+}
+
+.rankingsTable {
+	border:solid black 1px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	/*background: url(http://gearscores.com/images/parchment-light.jpg) repeat top left;*/
+}
+
+.rankingsTable td {
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:solid black 1px;
+	white-space:nowrap;
+}
+
+.rankingsTable td.rank {
+	color:white;
+}
+.rankingsTable td.name {
+}
+.rankingsTable td.realm {
+}
+.rankingsTable td.class {
+}
+.rankingsTable td.spec {
+}
+.rankingsTable td.guild {
+}
+.rankingsTable td.gearscore {
+}
+
+.rankingsTable td.headRank {
+	width:75px;
+}
+.rankingsTable td.headName {
+	width:100px;
+}
+.rankingsTable td.headRealm {
+	width:120px;
+}
+.rankingsTable td.headClass {
+	width:75px;
+}
+.rankingsTable td.headSpec {
+	width:100px;
+}
+.rankingsTable td.headGuild {
+	width:150px;
+}
+.rankingsTable td.headGearscore {
+	width:100px;
+}
+
+.rankingsTable tr.rowA {
+	background-image: url(http://gearscores.com/images/rank_row4.png);
+	background-repeat: repeat-x;
+	color:white;
+}
+
+.rankingsTable tr.rowB {
+	background-image: url(http://gearscores.com/images/rank_row3.png);
+	background-repeat: repeat-x;
+}
+
+.rankingsTable tr.rowC {
+	background-image: url(http://gearscores.com/images/rank_row4.png);
+	background-repeat: repeat-x;
+}
+
+div.scrollComments {
+	padding:10px;
+	width: 600px;
+	/*max-height: 300px;
+	overflow: auto;*/
+}
+
+.innerCommentsTable .rowA {
+	padding:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	background-color:#bbb;
+	color:white;
+}
+
+.innerCommentsTable .rowB {
+	padding:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.innerCommentsTable .rowC {
+	padding-left:5px;
+	padding-right:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:red;
+}
+
+.innerCommentsTable .rowB.trash {
+	color:#999;
+	font-size:12px;
+}
+
+.innerCommentsTable .rowB.normal {
+	color:black;
+	font-size:12px;
+}
+
+.innerCommentsTable .rowB.uncommon {
+	color:green;
+	font-size:14px;
+}
+
+.innerCommentsTable .rowB.superior {
+	color:blue;
+	font-size:14px;
+}
+
+.innerCommentsTable .rowB.epic {
+	color:purple;
+	font-size:16px;
+}
+
+.innerCommentsTable .rowA.trash {
+	background-color:#999;
+	color:black;
+	font-size:12px;
+}
+
+.innerCommentsTable .rowA.normal {
+	background-color:black;
+	color:white;
+	font-size:12px;
+}
+
+.innerCommentsTable .rowA.uncommon {
+	background-color:green;
+	color:white;
+	font-size:12px;
+}
+
+.innerCommentsTable .rowA.superior {
+	background-color:blue;
+	color:white;
+	font-size:14px;
+}
+
+.innerCommentsTable .rowA.epic {
+	background-color:purple;
+	color:white;
+	font-size:16px;
+}
+
+.noComments {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:center;
+}
+
+.commentTitle {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.commentAlias {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.commentAlias input {
+	width:250px;
+	font-size:16px;
+	color:green;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.commentEmail {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.commentEmail input {
+	width:250px;
+	font-size:16px;
+	color:green;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.commentComment {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.commentComment textarea {
+	width:400px;
+	font-size:16px;
+	color:green;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.commentCaptcha {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.commentCaptcha input {
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top:5px;
+}
+
+.pageNavigation {
+	width:710px;
+}
+
+.pageNavigation a {
+	color:white;
+}
+
+.pageNavigation img	 {
+	border-style:none;
+}
+
+.pageNavigation .border {
+	border: solid #048735 1px;
+	padding:0px 5px 2px 5px;
+	background: url(http://gearscores.com/images/greenfade.png) repeat top left;
+	color:#125a95;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.pageNavigation .rowA {
+	padding:3px 5px 3px 5px;;
+	color:white;
+	background-color:green;
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.pageNavigation .rowB {
+	padding:10px 5px 5px 5px;;
+}
+
+.pageNavigation .rowC {
+	padding:0px 5px 0px 5px;;
+	color:green;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.pageNavigation .rowC select {
+	margin-top:5px;
+	min-width:40px;
+}
+
+.pageNavigation .rowC input {
+	margin-top:5px;
+	font-size:14px;
+	color:green;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.mainpageSearch {
+	width:400px;
+}
+
+.mainpageSearch .rowA {
+	text-align:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#444;
+	padding-top:10px;
+}
+
+.mainpageSearch .rowB {
+	text-align:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#444;
+	padding-top:10px;
+}
+
+.mainpageSearch .rowC {
+	text-align:center;
+	padding-top:10px;
+}
+
+.mainpageSearch .rowD {
+	color:white;
+	font-size:26px;
+	font-family:Tahoma, Geneva, sans-serif;
+	background: url(http://gearscores.com/images/mainSearchTitle.png) repeat-x top left;
+	padding-bottom:2px;
+	border:solid #37398a 1px;
+}
+
+.mainpageSearch .rowA input {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	width:265px;
+	padding-left:5px;
+	color:#444;
+}
+
+.mainpageSearch .rowA select {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#444;
+	padding-left:5px;
+	height:25px;
+}
+
+.mainpageSearch .rowB .region3 {
+	width:70px;
+}
+
+.mainpageSearch .rowB .server3 {
+}
+
+.mainpageSearch .rowB select {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#444;
+}
+
+.mainpageSearch .rowC input {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#444;
+}
+
+.view3dButton {
+	position:relative;
+	float:left;
+	margin: -10px 0px 0px 30px;
+	border-style:none;
+}
+
+.featuresText {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#444444;
+}
+
+.featuresText H1 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#666666;
+}
+
+.logoImage {
+	border-style:none;
+}
+
+.bottomLinks {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:black;
+}
+
+.bottomLinks a {
+	color:blue;
+}
+
+.contactUs .rowA {
+	font-size:20px;
+	color:#444;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top:5px;
+}
+
+.contactUs .rowB {
+	font-size:16px;
+	color:#444;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:5px;
+}
+
+.contactUs .rowB input, .contactUs .rowC input {
+	width:250px;
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-top:5px;
+}
+
+.contactUs .rowC {
+	font-size:16px;
+	color:#444;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:5px;
+}
+
+.contactUs .rowD {
+	font-size:16px;
+	color:#444;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:5px;
+}
+
+.contactUs .rowD input {
+	margin-top:10px;
+}
+
+.contactUs .rowE {
+	font-size:16px;
+	color:#444;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:5px;
+}
+
+.contactUs .rowE textarea {
+	width:400px;
+	height:150px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-top:5px;
+}
+
+.contactUs .rowF {
+	font-size:16px;
+	color:#444;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:5px;
+}
+
+.contactUs .rowF input {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#444;
+}
+
+.charInfo {
+}
+
+.charInfo .raidExp {
+	background-color:green;
+	color:white;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.charInfo .raidExpTitle {
+	background-color:green;
+	color:white;
+	width:50px;
+	text-align:center;
+	vertical-align:middle;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.charInfo .raidName {
+	/*background-color:#ddddff;
+	color:#0000FF;*/
+	color:green;
+	font-weight:550;
+	white-space:nowrap;
+	text-align:center;
+	vertical-align:middle;
+	padding:2px 10px 2px 10px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.charInfo .greenRaidExp {
+	color:green;
+	text-align:center;
+	vertical-align:middle;
+	border:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:500;
+}
+
+.charInfo .redRaidExp {
+	color:red;
+	text-align:center;
+	vertical-align:middle;
+	border:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:500;
+}
+
+.charInfo .orangeRaidExp {
+	color:#D28900;
+	text-align:center;
+	vertical-align:middle;
+	border:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:500;
+}
+
+
+.charInfo .busyText {
+	width:367px;
+	height:191px;
+	text-align:center;
+	vertical-align:middle;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+}
+
+.registerPage .registerTitle {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.registerPage .registerAlias {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.registerPage .registerAlias input{
+	width:250px;
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.registerPage .registerEmail {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.registerPage .registerEmail input{
+	width:250px;
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.registerPage .registerPassword {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.registerPage .registerPassword input{
+	width:250px;
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.registerPage .registerSecurity {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.registerPage .registerSecurity input{
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top:5px;
+}
+
+.registerPage .registerSubmit {
+	font-size:16px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.registerPage .registerSubmit input{
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top:5px;
+}
+
+.registerPage td{
+	padding-top:10px;
+}
+
+.registerFinishPage .finishTitle {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:2px;
+}
+
+.registerFinishPage .finishTitle a{
+	color:#5E5EFF;
+}
+
+.regError {
+	margin-top:20px;
+	border:solid #CC0000 1px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#CC0000;
+	background-color:#FFFFCC;
+	text-align:left;
+}
+
+.loginPage .loginTitle {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+.loginPage .loginTitle a{
+	color:#5E5EFF;
+}
+
+.loginPage .loginEmail {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+.loginPage .loginEmail input {
+	width:250px;
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.loginPage .loginPassword {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+.loginPage .loginPassword input {
+	width:250px;
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.loginPage .loginSubmit input{
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top:5px;
+}
+
+.loginPage .loginLinks a{
+	font-size:14px;
+	color:#5E5EFF;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+.passResetPage .passResetTitle {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+.passResetPage .passResetText {
+	font-size:18px;
+	color:#555;
+	font-family:Tahoma, Geneva, sans-serif;	
+}
+
+.passResetPage .passResetText input {
+	font-size:16px;
+	color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top:5px;
+}
+
+.passResetPage .passResetText a {
+	color:#5E5EFF;
+}
+
+.sponsorTable {
+	width:570px;
+}
+
+.sponsorTable .sponsorTitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:green;
+}
+
+.sponsorTable .sponsorText {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#555;
+}
+
+.signatureTable {
+	width:570px;
+}
+
+.signatureTable .signatureTitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:green;
+}
+
+.signatureTable .signatureText {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#555;
+}
