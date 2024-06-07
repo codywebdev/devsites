@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Goofology.com - You are now visiting a site outside of Goofology.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script type="text/javascript"> 
+function closeframes(){ 
+ if (navigator.userAgent.indexOf("Opera") != -1) { //Opera
+    alert('Opera does not support this option. Try resizing the frame.');
+  }
+   else {
+var cURL=parent.document.getElementById('bottom').src 
+parent.location=cURL 
+}
+} 
+</script>
+</head>
+
+<body bgcolor="#000000">
+ 
+
+
+
+<table border="0" align="left">
+  <tr>
+    <td width="230">	  <img src="images/goofbanner.jpg" width="225" height="35" align="top">	</td>
+    <td>
+		
+
+	  <div align="center"><img name="Advertisement" src="" width="468" height="60" alt="Advertisement"></div></td>
+  </tr>
+  <tr>
+    <td>
+	    <script language="JavaScript">
+
+				var Link=new Array()
+				
+				Link[0] = ""
+				Link[1] = ""
+				Link[2] = ""
+				Link[3] = ""
+				Link[4] = ""
+				Link[5] = ""
+				Link[6] = "<font color=#FFFF00><strong>Secret word 1: <a href=goofologist.htm style='color: red;'>I'm</a></strong></font>"
+				Link[7] = "<font color=#FFFF00><strong>Secret word 2: <a href=goofologist.htm style='color: red;'>a</a></strong></font>"
+				Link[8] = "<font color=#FFFF00><strong>Secret word 3: <a href=goofologist.htm style='color: red;'>Goof</a></strong></font>"
+				Link[9] = ""
+				
+				var L = Link.length;
+				var whichLink=Math.round(Math.random()*(L-1));
+				function showLink(){document.write(Link[whichLink]);}
+				document.write('');
+				showLink();
+				document.write('');
+			 </script>
+		<br>
+		<a href="javascript:closeframes()">Click Here To Remove This Frame</a>
+	</td>
+    <td>
+		<div align="center"><font color="#FFFFFF">You are now visiting a site outside of Goofology.com</font><br>
+		<a href="javascript:window.close();" target="_parent"
+		class="menubar">Click Here To Close This Window</a></div>
+	</td>
+  </tr>
+</table>
+
+</body>
+</html>
