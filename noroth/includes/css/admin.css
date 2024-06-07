@@ -1,0 +1,131 @@
+/* CSS Document */
+#lists_form_wrapper {
+	position:fixed;
+	right:10px;
+	top:10px;
+	width:400px;
+}
+
+#lists_form_wrapper #form_lists_form {
+}
+
+#lists_form_wrapper #form_formName {
+	width:280px;
+	height:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#lists_form_wrapper #form_customName {
+	width:280px;
+	height:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#lists_form_wrapper #form_description {
+	width:380px;
+	height:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#lists_form_wrapper label {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#categories_list_form_wrapper .categoryName {
+	width:200px;
+	height:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#categories_list_form_wrapper .categoryId {
+	width:200px;
+	height:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#categories_list_form_wrapper .categoryDescription {
+	width:200px;
+	height:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+#categories_list_form_wrapper label {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	margin-left:10px;
+}
+
+#categories_list_form_wrapper input[type=submit] {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	margin-left:974px;
+}
+
+#bigProductFrame input#form_shortName {
+	height:40px;
+	width:430px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#242424;
+	text-align:center;
+	border:1px solid black;
+}
+
+#bigProductFrame #itemVariations{
+	position:absolute;
+	top:465px;
+	left:100px;
+	width:540px;
+	text-align:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #242424;
+}
+
+#bigProductFrame #itemVariations input{
+	width:200px;
+	height:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#242424;
+	border:1px solid #919191;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+#bigProductFrame input#form_itemRating {
+	height:80px;
+	width:140px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:48px;
+	color:black;
+	text-align:center;
+	border:1px solid black;
+}
+
+#bigProductFrame input#form_itemRatingTheGood {
+	height:30px;
+	width:580px;
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:green;
+	border:1px solid black;
+}
+
+#bigProductFrame input#form_itemRatingTheBad {
+	height:30px;
+	width:580px;
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:red;
+	border:1px solid black;
+}
