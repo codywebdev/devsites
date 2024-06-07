@@ -1,0 +1,200 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	width: 100%;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+.header {
+	height: 291px;
+
+	.wrap {
+		width: 960px;
+	}
+	
+	nav {
+		width: (960px - 420px);
+		margin-left: 420px;
+		margin-top: 70px;
+	}
+	
+	#topPageExtensionContainer {
+		
+		#pageExtension {
+			height: 121px;
+			width: 989px;
+			margin-top: 40px;
+			margin-bottom: 0;
+			position: absolute;
+			clear: both;
+			left: -11px;
+			top: 0px;
+			z-index:10;
+			
+			img {
+				height: 121px;
+				width: 989px;
+			}
+		}
+		
+		#pageExtensionText {
+			height: 50px;
+			width: 400px;
+			margin-top: 115px;
+			margin-left: 65px;
+			float: left;
+			position: absolute;
+			clear: both;
+			z-index:11;
+			font-size:18px;
+			font-weight:bold;
+			color: $medium-blue;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		
+		#pageExtensionButton {
+			width: (960px - 420px);
+			height: 60px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			margin-left: 550px;
+			margin-top: 92px;
+			float: left;
+			display: block;
+			position:relative;
+			z-index:11;
+			
+			img {
+				height: 62px;
+				width: 348px;
+			}
+		}
+	}
+}
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+.nav {
+	
+	ul {
+	}
+	
+	li {
+
+		a {
+			padding: 13px 20px;
+			font-size: 22px;
+		}
+	}
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+/* entry content */
+.entry-content {
+			
+	.content {
+		width: 960px;
+	}
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+	
+	.wrap {
+		width: 960px;
+	}	
+
+	nav {
+		width: (960px - 420px);
+		margin: 140px auto 10px auto;
+	}	
+	
+	#bottomPageExtensionContainer {
+		margin-top: 0;
+		position: relative;
+		clear: both;
+		
+		#pageExtension {
+			height: 134px;
+			width: 989px;
+			margin-top: 0;
+			margin-bottom: 0;
+			position: absolute;
+			clear: both;
+			left: -9px;
+			top: 0px;
+			z-index:10;
+			
+			img {
+				height: 134px;
+				width: 989px;
+			}
+		}
+		
+		#pageExtensionText {
+			height: 50px;
+			width: 400px;
+			margin-top: 15px;
+			margin-left: 550px;
+			float: left;
+			position: relative;
+			z-index:11;
+			font-size:18px;
+			font-weight:bold;
+			color: $medium-blue;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		
+		#pageExtensionButton {
+			width: (960px - 420px);
+			height: 60px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			margin-left: 65px;
+			margin-top: 15px;
+			float: left;
+			display: block;
+			position:absolute;
+			clear: both;
+			z-index:11;
+			
+			img {
+				height: 62px;
+				width: 348px;
+			}
+		}
+	}
+}
+
+
+
+.copyright {
+	width: 630px;
+	margin: 0 auto;
+}
