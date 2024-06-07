@@ -1,0 +1,1098 @@
+/* Normal, standard links. */
+
+a:link
+
+{
+
+	color: #405A94;
+
+	text-decoration: none;
+
+}
+
+a:visited
+
+{
+
+	color: #404040;
+
+	text-decoration: none;
+
+}
+
+a:hover
+
+{
+
+	color: #6280BC;
+
+	text-decoration: underline;
+
+}
+
+
+
+/* Navigation links - for the link tree. */
+
+.nav, .nav:link, .nav:visited
+
+{
+
+	color: #000000;
+
+	text-decoration: none;
+
+}
+
+a.nav:hover
+
+{
+
+	color: #1F3F81;
+
+	text-decoration: underline;
+
+}
+
+
+
+/* Tables should show empty cells. */
+
+table
+
+{
+
+	empty-cells: show;
+
+}
+
+
+
+/* By default (td, body..) use verdana in black. */
+
+body, td, th , tr
+
+{
+
+	color: #000000;
+
+	/*font-size: small;
+
+	font-family: verdana, sans-serif;*/
+
+}
+
+
+
+/* The main body of the entire forum. */
+
+body
+
+{
+
+/*background-color: #E6E6E6;
+
+margin: 0px;
+
+padding: 0px; 10px 30px 4px 30px;
+
+background-image: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/compbackground1.jpg);*/
+
+}
+
+
+
+/* Input boxes - just a bit smaller than normal so they align well. */
+
+input, textarea, button
+
+{
+
+	background-color: ;
+
+	color: #000000;
+
+	font-family: verdana, sans-serif;
+
+}
+
+input, button
+
+{
+
+	font-size: 90%;
+
+}
+
+
+
+textarea
+
+{
+
+	font-size: 100%;
+
+	color: #000000;
+
+	font-family: verdana, sans-serif;
+
+}
+
+
+
+/* All input elements that are checkboxes or radio buttons. */
+
+input.check
+
+{
+
+}
+
+
+
+/* Selects are a bit smaller, because it makes them look even better 8). */
+
+select
+
+{
+
+	font-size: 90%;
+
+	font-weight: normal;
+
+	color: #000000;
+
+	font-family: verdana, sans-serif;
+
+}
+
+
+
+/* Standard horizontal rule.. ([hr], etc.) */
+
+hr, .hrcolor
+
+{
+
+	height: 1px;
+
+	border: 0;
+
+	color: #162C5D;
+
+	background-color: #666666;
+
+}
+
+
+
+/* No image should have a border when linked */
+
+a img
+
+{
+
+	border: 0;
+
+}
+
+/* A quote, perhaps from another post. */
+
+.quote
+
+{
+
+	color: #000000;
+
+	background-color: #D7DAEC;
+
+	border: 1px solid #000000;
+
+	margin: 1px;
+
+	padding: 1px;
+
+	font-size: x-small;
+
+	line-height: 1.4em;
+
+}
+
+
+
+/* A code block - maybe even PHP ;). */
+
+.code
+
+{
+
+	color: #000000;
+
+	background-color: #dddddd;
+
+	font-family: "courier new", "times new roman", monospace;
+
+	font-size: x-small;
+
+	line-height: 1.3em;
+
+	/* Put a nice border around it. */
+
+	border: 1px solid #000000;
+
+	margin: 1px auto 1px auto;
+
+	padding: 1px;
+
+	width: 99%;
+
+	/* Don't wrap its contents, and show scrollbars. */
+
+	white-space: nowrap;
+
+	overflow: auto;
+
+	/* Stop after about 24 lines, and just show a scrollbar. */
+
+	max-height: 24em;
+
+}
+
+
+
+/* The "Quote:" and "Code:" header parts... */
+
+.quoteheader, .codeheader
+
+{
+
+	color: #000000;
+	
+	text-decoration: none;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	font-size: x-small;
+
+	line-height: 1.2em;
+
+}
+
+
+
+/* Generally, those [?] icons.  This makes your cursor a help icon. */
+
+.help
+
+{
+
+	cursor: help;
+
+}
+
+
+
+/* /me uses this a lot. (emote, try typing /me in a post.) */
+
+.meaction
+
+{
+
+	color: red;
+
+}
+
+
+
+/* The main post box - this makes it as wide as possible. */
+
+.editor
+
+{
+
+	width: 85%;
+
+}
+
+
+
+/* Highlighted text - such as search results. */
+
+.highlight
+
+{
+
+	background-color: yellow;
+
+	font-weight: bold;
+
+	color: black;
+
+}
+
+
+
+/* Alternating backgrounds for posts, and several other sections of the forum. */
+
+.windowbg
+
+{
+
+	color: #000000;
+
+	background-color: #f8f7ef; /*#C6CEDF;*/
+
+}
+
+.windowbg2
+
+{
+
+	color: #000000;
+
+	background-color: #f5f4e7; /*#F6F6F6;*/
+
+}
+
+.windowbg3
+
+{
+
+	color: #000000;
+
+	background-color: #f8f7ef; /*#EAEDF3;*/
+
+}
+
+/* the today container in calendar */
+
+.calendar_today
+
+{
+
+	color: #000000;
+
+				 background-color: #EAEDF3;
+
+}
+
+
+
+/* These are used primarily for titles, but also for headers (the row that says what everything in 
+
+
+
+the table is.) */
+
+.titlebg, tr.titlebg th, tr.titlebg td, .titlebg2, tr.titlebg2 th, tr.titlebg2 td
+
+{
+
+	color: #FFFFFF;
+
+	font-style: normal;
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/blacknbluetitlebg.png) 
+
+
+
+#1F3769 repeat-x;
+
+	border-bottom: solid 1px #9BAEBF;
+
+	border-top: solid 1px #FFFFFF;
+
+	padding-left: 10px;
+
+	padding-right: 10px;
+
+}
+
+.titlebg, .titlebg a:link, .titlebg a:visited
+
+{
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	font-style: normal;
+
+}
+
+
+
+.titlebg a:hover
+
+{
+
+	color: #404040;
+
+}
+
+/* same as titlebg, but used where bold text is not needed */
+
+.titlebg2 a:link, .titlebg2 a:visited
+
+{
+
+	color: white;
+
+	font-style: normal;
+
+	text-decoration: underline;
+
+}
+
+
+
+.titlebg2 a:hover
+
+{
+
+	text-decoration: underline;
+
+}
+
+
+
+/* This is used for categories, page indexes, and several other areas in the forum.
+
+.catbg and .catbg2 is for boardindex, while .catbg3 is for messageindex and display headers*/
+
+.catbg , tr.catbg td , .catbg3 , tr.catbg3 td
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/blacknbluecatbg2.png) #1F3769 
+
+
+
+repeat-x;
+
+	color: #ffffff;
+
+	padding-left: 10px;
+
+	padding-right: 10px;
+
+}
+
+.catbg2 , tr.catbg2 td
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/blacknbluecatbg2.png) #1F3769 
+
+
+
+repeat-x;
+
+	color: #ffffff;
+
+	padding-left: 10px;
+
+	padding-right: 10px;
+
+}
+
+.catbg, .catbg2, .catbg3
+
+{
+
+	border-bottom: solid 1px #375576;
+
+}
+
+.catbg, .catbg2
+
+{
+
+	font-weight: bold;
+
+}
+
+.catbg3, tr.catbg3 td, .catbg3 a:link, .catbg3 a:visited
+
+{
+
+	font-size: 95%;
+
+	color: white;
+
+	text-decoration: none;
+
+}
+
+.catbg a:link, .catbg a:visited , .catbg2 a:link, .catbg2 a:visited
+
+{
+
+	color: white;
+
+	text-decoration: none;
+
+}
+
+.catbg a:hover, .catbg2 a:hover, .catbg3 a:hover
+
+{
+
+	color: #e0e0ff;
+
+}
+
+/* This is used for tables that have a grid/border background color (such as the topic listing.) */
+
+.bordercolor
+
+{
+
+	background-color: #ADADAD;
+
+	padding: 0px;
+
+}
+
+
+
+/* This is used on tables that should just have a border around them. */
+
+.tborder
+
+{
+
+	padding: 1px;
+
+	border: 1px solid #696969;
+
+	background-color: #FFFFFF;
+
+}
+
+
+
+/* Default font sizes: small (8pt), normal (10pt), and large (14pt). */
+
+.smalltext
+
+{
+
+	font-size: x-small;
+
+	font-family: verdana, sans-serif;
+
+}
+
+.middletext
+
+{
+
+	font-size: 90%;
+
+}
+
+.normaltext
+
+{
+
+	font-size: small;
+
+}
+
+.largetext
+
+{
+
+	font-size: large;
+
+}
+
+
+
+
+
+/* Posts and personal messages displayed throughout the forum. */
+
+.post, .personalmessage
+
+{
+
+	width: 100%;
+
+	overflow: auto;
+
+	line-height: 1.3em;
+
+}
+
+
+
+/* All the signatures used in the forum.  If your forum users use Mozilla, Opera, or Safari, you 
+
+
+
+might add max-height here ;). */
+
+.signature
+
+{
+
+	width: 100%;
+
+	overflow: auto;
+
+	padding-bottom: 3px;
+
+	line-height: 1.3em;
+
+}
+
+
+
+/* Sometimes there will be an error when you post */
+
+.error
+
+{
+
+	color: red;
+
+}
+
+
+
+
+
+/* definitions for the main tab, active means the tab reflects which page is displayed */
+
+.maintab_first, .maintab_back, .maintab_last, .maintab_active_first, .maintab_active_back, 
+
+
+
+.maintab_active_last
+
+{
+
+	color: white;
+
+	text-transform: uppercase;
+
+	vertical-align: top;
+
+}
+
+.maintab_back, .maintab_active_back
+
+{
+
+	color: white;
+
+	text-decoration: none;
+
+	font-size:  9px;
+
+	vertical-align: top;
+
+	padding: 2px 6px 6px 6px;
+
+	font-family: tahoma, sans-serif;
+
+}
+
+
+
+.maintab_first
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/maintab_first.gif) left 
+
+
+
+bottom no-repeat;
+
+	width: 10px;
+
+}
+
+.maintab_back
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/maintab_back.gif) left bottom 
+
+
+
+repeat-x;
+
+}
+
+.maintab_last
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/maintab_last.gif) left bottom 
+
+
+
+no-repeat;
+
+	width: 8px;
+
+}
+
+.maintab_active_first
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/maintab_active_first.gif) 
+
+
+
+left bottom no-repeat;
+
+	width: 6px;
+
+}
+
+.maintab_active_back
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/maintab_active_back.gif) left 
+
+
+
+bottom repeat-x;
+
+}
+
+.maintab_active_last
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/maintab_active_last.gif) left 
+
+
+
+bottom no-repeat;
+
+	width: 8px;
+
+}
+
+
+
+/* how links behave in main tab. */
+
+.maintab_back a:link , .maintab_back a:visited, .maintab_active_back a:link , .maintab_active_back 
+
+
+
+a:visited
+
+{
+
+	color: white;
+
+	text-decoration: none;
+
+}
+
+
+
+.maintab_back a:hover, .maintab_active_back a:hover
+
+{
+
+	color: #e0e0ff;
+
+	text-decoration: none;
+
+}
+
+/* definitions for the mirror tab */
+
+.mirrortab_first, .mirrortab_back, .mirrortab_last, .mirrortab_active_first, .mirrortab_active_back, 
+
+
+
+.mirrortab_active_last
+
+{
+
+	color: white;
+
+	text-transform: uppercase;
+
+	vertical-align: top;
+
+}
+
+.mirrortab_back, .mirrortab_active_back
+
+{
+
+	color: white;
+
+	text-decoration: none;
+
+	font-size: 9px;
+
+	vertical-align: bottom;
+
+	padding: 6px 6px 2px 6px;
+
+	font-family: tahoma, sans-serif;
+
+}
+
+
+
+.mirrortab_first
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/mirrortab_first.gif) 
+
+
+
+no-repeat;
+
+	width: 10px;
+
+}
+
+.mirrortab_back
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/mirrortab_back.gif) repeat-x;
+
+}
+
+.mirrortab_last
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/mirrortab_last.gif) 
+
+
+
+no-repeat;
+
+	width: 6px;
+
+}
+
+.mirrortab_active_first
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/mirrortab_active_first.gif) 
+
+
+
+no-repeat;
+
+	width: 6px;
+
+}
+
+.mirrortab_active_back
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/mirrortab_active_back.gif) 
+
+
+
+repeat-x;
+
+}
+
+.mirrortab_active_last
+
+{
+
+	background: 
+
+
+
+url(http://i148.photobucket.com/albums/s20/smfstyles/black%20and%20blue/mirrortab_active_last.gif) 
+
+
+
+no-repeat;
+
+	width: 8px;
+
+}
+
+
+
+/* how links behave in mirror tab. */
+
+.mirrortab_back a:link , .mirrortab_back a:visited, .mirrortab_active_back a:link , 
+
+
+
+.mirrortab_active_back a:visited
+
+{
+
+	color: white;
+
+	text-decoration: none;
+
+}
+
+
+
+.mirrortab_back a:hover, .mirrortab_active_back a:hover
+
+{
+
+	color: #e0e0ff;
+
+	text-decoration: none;
+
+}
+
+
+
+/* The AJAX notifier */
+
+#ajax_in_progress
+
+{
+
+	background: #32CD32;
+
+	color: white;
+
+	text-align: center;
+
+	font-weight: bold;
+
+	font-size: 18pt;
+
+	padding: 3px;
+
+	width: 100%;
+
+	position: fixed;
+
+	top: 0;
+
+	left: 0;
+
+}
+
+
+
+.blizzquotewrap {
+	background-color: #333;
+	color: #09f;
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 11px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	line-height: normal;
+}
+
+.blizzquote h1, .blizzquoteheader {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 6px;
+	font-size: 11px;
+	font-weight: normal;
+	background-repeat: no-repeat;
+	background-image: url("/Themes/wow-informer/images/blizzquotesep.gif");
+	background-position: bottom left;
+	background-color: #333;
+	border: 0;
+}
+
+.blizzquote h1 span, .blizzquoteheader span {
+	background-image: url("/Themes/wow-informer/images/blizz_ico.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 27px;
+	line-height: 21px;
+	padding-left: 30px;
+	display: block;
+}
+
+.blizzquote a:link, .blizzquote a:visited, .blizzquote a:hover {
+	color:#FFFFFF;
+}
+
+blizzquote ul, .blizzquote li {
+	color: #09f;
+}
